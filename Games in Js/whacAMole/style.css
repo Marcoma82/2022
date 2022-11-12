@@ -1,0 +1,32 @@
+* {
+    border: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #bd4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    background-color: #4a6ebd;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0;
+    margin: 0;
+}
+
+.square {
+    width: 33%;
+    height: 33%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.mole {
+    background-color: blue;
+}

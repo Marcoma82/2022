@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.boardGame {
+    position: absolute;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.user {
+    position: absolute;
+}
+
+.block {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    background-color: purple;
+}
